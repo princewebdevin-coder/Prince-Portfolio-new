@@ -395,3 +395,29 @@ h2.landing-info-h2 {
     font-size: 75px;
   }
 }
+
+@media screen and (max-width: 499px) {
+  .landing-info h3 {
+    font-size: clamp(16px, 5vw, 20px);
+  }
+
+  .landing-info h2 {
+    font-size: 28px;
+    line-height: 1.15;
+    margin-left: 0;
+  }
+
+  h2.landing-info-h2 {
+    width: 100%;
+    margin-left: 0;
+    font-size: clamp(26px, 8vw, 30px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .character-model {
+    width: 100%;
+    height: min(68svh, 560px);
+    bottom: 20px;
+  }
+}

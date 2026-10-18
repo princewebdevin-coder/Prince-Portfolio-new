@@ -81,6 +81,46 @@ div.resume-button span {
   width: 100%;
   z-index: 99999;
 }
+@media only screen and (max-width: 767px) {
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    bottom: 12px;
+    gap: 4px;
+    padding: 0;
+  }
+
+  .social-icons span {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-icons a {
+    font-size: 19px;
+  }
+
+  .resume-button {
+    right: 0;
+    bottom: 12px;
+    min-height: 40px;
+    align-items: center;
+    padding: 0 12px;
+    border: 1px solid rgba(234, 229, 236, 0.25);
+    border-radius: 999px;
+    background: rgba(10, 14, 23, 0.94);
+    color: #eae5ec;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    transform: none;
+  }
+
+  div.resume-button span {
+    font-size: 16px;
+    margin-top: 0;
+  }
+}
 @media only screen and (min-width: 900px) {
   .social-icons {
     display: flex;

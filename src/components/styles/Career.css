@@ -224,8 +224,25 @@
     gap: 0px;
   }
 
+  .career-info-in {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
   .career-info h3 {
     font-size: 33px;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .career-info h4 {
+    width: auto;
+  }
+
+  .career-role {
+    min-width: 0;
+    flex: 1 1 180px;
   }
 
   .career-info-in,

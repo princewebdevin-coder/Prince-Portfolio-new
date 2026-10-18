@@ -329,3 +329,33 @@
     max-height: 250px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .carousel-slide {
+    width: 100%;
+    min-width: 0;
+    flex: 0 0 100%;
+  }
+
+  .carousel-content,
+  .carousel-info,
+  .carousel-details,
+  .carousel-image-wrapper {
+    min-width: 0;
+  }
+
+  .carousel-info {
+    width: 100%;
+    gap: 16px;
+  }
+
+  .carousel-details {
+    flex: 1;
+  }
+
+  .carousel-details h4,
+  .carousel-category,
+  .carousel-tools p {
+    overflow-wrap: anywhere;
+  }
+}

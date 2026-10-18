@@ -134,21 +134,26 @@
 
 @media only screen and (max-width: 520px) {
   .certificates-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
   }
   .certificate-card:nth-child(7) {
     grid-column: auto;
   }
   .certificate-card {
-    min-height: 190px;
-    padding: 14px;
+    min-height: 180px;
+    padding: 16px;
   }
   .certificate-card span,
   .certificate-card small {
     font-size: 9px;
   }
+  .certificate-card span:first-of-type {
+    max-width: 100%;
+    white-space: normal;
+    text-align: right;
+  }
   .certificate-card h3 {
-    font-size: 15px;
+    font-size: 17px;
   }
 }
